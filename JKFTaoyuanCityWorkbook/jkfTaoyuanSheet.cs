@@ -60,7 +60,7 @@ namespace JKFTaoyuanCityWorkbook
             // options
             using (IWebDriver browser = new FirefoxDriver(options))
             {
-                browser.Navigate().GoToUrl("<URL>");
+                browser.Navigate().GoToUrl(taoyuan_area);
                 // 等待並處理彈窗...
                 WebDriverWait wait = new WebDriverWait(browser, TimeSpan.FromSeconds(10));
                 try
