@@ -60,7 +60,7 @@ namespace JKFTaoyuanCityWorkbook
             // options
             using (IWebDriver browser = new FirefoxDriver(options))
             {
-                browser.Navigate().GoToUrl("https://www.jkforum.net/p/type-1128-1947.html");
+                browser.Navigate().GoToUrl("<URL>");
                 // 等待並處理彈窗...
                 WebDriverWait wait = new WebDriverWait(browser, TimeSpan.FromSeconds(10));
                 try
